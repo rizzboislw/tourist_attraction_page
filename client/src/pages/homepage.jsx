@@ -18,7 +18,7 @@ function HomePage() {
         setErrorStatus(false)
         setLoadingStatus(true)
         try {
-            const dataFetch = await axios.get(`https://teawnaidee-techup.up.railway.app/trips?keywords=${collectInput}`)
+            const dataFetch = await axios.get(`https://travelpage-data-techup.up.railway.app/trips?keywords=${collectInput}`)
             setSearchResult(dataFetch.data.data)
             setLoadingStatus(false)
         } catch (error){
