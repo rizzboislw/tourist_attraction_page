@@ -18,7 +18,7 @@ function HomePage() {
         setErrorStatus(false)
         setLoadingStatus(true)
         try {
-            const dataFetch = await axios.get(`http://localhost:4001/trips?keywords=${collectInput}`)
+            const dataFetch = await axios.get(`https://touristattractionpage-production.up.railway.app/trips?keywords=${collectInput}`)
             setSearchResult(dataFetch.data.data)
             setLoadingStatus(false)
         } catch (error){
