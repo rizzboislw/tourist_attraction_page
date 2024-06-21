@@ -7,10 +7,6 @@
     font-family: "Kanit", sans-serif;
 }
 
-/* I've installed Tailwind, but it seemed a bit tricky sometimes, 
-so I decided to use native CSS for this project. 
-But I'll stick more to Tailwind in the future projects krub!*/
-
 .main-page-container {
     width: auto;
     min-height: 100vh;

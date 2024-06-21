@@ -5,7 +5,7 @@ function MainContent({ searchResult , addSearchKeyword, loadingStatus, errorStat
     return (
         <main className="main-page-content">
         { loadingStatus ? ( <h1 className="status-message">Loading...</h1> 
-            ) : errorStatus ? ( <h1 className="status-message">There was an error fetchign data...</h1>  
+            ) : errorStatus ? ( <h1 className="status-message">There was a problem fetching data...</h1>  
             ) : ( searchResult.map((item) => (
                 <div key={item.eid} className="content-container">
                         <img src={item.photos[0]} alt="image" className="content-preview-image" />
