@@ -8,7 +8,7 @@
 }
 
 .main-page-container {
-    width: auto;
+    width: 100%;
     min-height: 100vh;
     background-color: white;
     padding-top: 1.5vw;
@@ -98,7 +98,7 @@
                 
 
                 .content-preview-image {
-                    width: 12vw;
+                    width: 10vw;
                     min-width: 300px;
                     min-height: 300px ;
                     overflow: hidden;
@@ -286,6 +286,7 @@
                         }
                     .material-symbols-outlined {
                         font-size: 2rem;
+                        
                     }
                 }
             }
@@ -294,22 +295,37 @@
   
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 700px){
+
+    html, body {
+        width: max-content;
+        min-width: 100vw;
+        height: min-content;
+        
+    }
     
     .main-page-container {
+        
 
         .main-page-content {
 
             .content-container {
+               
 
                 .content-detail {
 
                     .content-more-images {
 
                         .more-image {
-                        width: 40px;
-                        height: 40px;
+                        width: 20%;
+                        height: 10rem;
                         }                 
+                    }
+
+                    .material-symbols-outlined {
+                        font-size: 2rem;
+                        right: 0;
+                        
                     }
 
                 }             
