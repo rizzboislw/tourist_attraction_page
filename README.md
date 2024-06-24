@@ -1,1 +1,1 @@
-Live Review: https://paiteawgun.vercel.app/
+Live Preview: https://paiteawgun.vercel.app/
